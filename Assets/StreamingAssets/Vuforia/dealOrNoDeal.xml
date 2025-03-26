@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="smoking" size="1.000000 1.000000" />
+    <ImageTarget name="maletin5" size="1.000000 1.000000" />
+    <ImageTarget name="maletin4" size="1.000000 1.000000" />
+    <ImageTarget name="maletin3" size="1.000000 1.000000" />
+    <ImageTarget name="maletin2" size="1.000000 1.000000" />
+    <ImageTarget name="maletin1" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>

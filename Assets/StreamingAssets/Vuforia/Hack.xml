@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="final3" size="1.000000 1.000000" />
+    <ImageTarget name="final2" size="1.000000 1.000000" />
+    <ImageTarget name="final1" size="1.000000 1.000000" />
+    <ImageTarget name="escenario3b_opcion2b" size="1.000000 1.000000" />
+    <ImageTarget name="escenario3a_opcion2b" size="1.000000 1.000000" />
+    <ImageTarget name="escenario3a_opcion2a" size="1.000000 1.000000" />
+    <ImageTarget name="escenario3b_opcion2a" size="1.000000 1.000000" />
+    <ImageTarget name="escenario2_opciona" size="1.000000 1.000000" />
+    <ImageTarget name="escenario2_opcionb" size="1.000000 1.000000" />
+    <ImageTarget name="inicio" size="1.000000 1.000000" />
+    <ImageTarget name="descubrimiento" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
