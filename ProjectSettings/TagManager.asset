@@ -3,16 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hacker
+  - Modelo
+  - ImageTarget
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hacker
   - Water
   - UI
-  - 
-  - 
+  - E1
+  - E2
   - 
   - 
   - 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="eliminar" size="1.000000 1.000000" />
     <ImageTarget name="final3" size="1.000000 1.000000" />
     <ImageTarget name="final2" size="1.000000 1.000000" />
     <ImageTarget name="final1" size="1.000000 1.000000" />
