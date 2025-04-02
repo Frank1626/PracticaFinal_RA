@@ -532,7 +532,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Size: {x: 0.5, y: 0.1, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &34854822
 MonoBehaviour:
@@ -2891,8 +2891,8 @@ GameObject:
   - component: {fileID: 300561787}
   - component: {fileID: 300561794}
   - component: {fileID: 300561795}
-  - component: {fileID: 300561797}
   - component: {fileID: 300561796}
+  - component: {fileID: 300561797}
   m_Layer: 0
   m_Name: 'E2: Opcion_1B_Traicion_Borrar_Santiago'
   m_TagString: ImageTarget
@@ -3946,8 +3946,8 @@ GameObject:
   - component: {fileID: 438190429}
   - component: {fileID: 438190428}
   - component: {fileID: 438190436}
-  - component: {fileID: 438190438}
   - component: {fileID: 438190437}
+  - component: {fileID: 438190438}
   m_Layer: 0
   m_Name: 'E3: Opcion2A_Opcion3A_Huir_Y_Esconderse'
   m_TagString: ImageTarget
@@ -6581,8 +6581,8 @@ GameObject:
   - component: {fileID: 747154004}
   - component: {fileID: 747154006}
   - component: {fileID: 747154011}
-  - component: {fileID: 747154013}
   - component: {fileID: 747154012}
+  - component: {fileID: 747154013}
   m_Layer: 0
   m_Name: 'E3: Opcion2A_Opcion3B_Contactar_Periodista'
   m_TagString: ImageTarget
@@ -7643,7 +7643,7 @@ CapsuleCollider:
   m_Radius: 0.1
   m_Height: 0.95
   m_Direction: 1
-  m_Center: {x: 0, y: 0.4, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &875675780
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9855,7 +9855,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f0caa0e306a2c74283273636531b92e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.607
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f0caa0e306a2c74283273636531b92e,
         type: 3}
@@ -9946,6 +9946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5950818470894562371, guid: 6f0caa0e306a2c74283273636531b92e,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5857696854640597626, guid: 6f0caa0e306a2c74283273636531b92e,
         type: 3}
@@ -10101,6 +10106,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1169690143460869596, guid: 6f0caa0e306a2c74283273636531b92e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1339101018200438765, guid: 6f0caa0e306a2c74283273636531b92e,
         type: 3}
       propertyPath: m_Layer
@@ -10191,6 +10201,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: 6f0caa0e306a2c74283273636531b92e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: 6f0caa0e306a2c74283273636531b92e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.011
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465940246521907071, guid: 6f0caa0e306a2c74283273636531b92e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.003
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 6f0caa0e306a2c74283273636531b92e,
         type: 3}
       propertyPath: m_Controller
@@ -10278,8 +10303,8 @@ GameObject:
   - component: {fileID: 1142072393}
   - component: {fileID: 1142072396}
   - component: {fileID: 1142072399}
-  - component: {fileID: 1142072401}
   - component: {fileID: 1142072400}
+  - component: {fileID: 1142072401}
   m_Layer: 7
   m_Name: 'E2: Opcion_1A_Traicion_Exponer_Info'
   m_TagString: ImageTarget
@@ -10973,7 +10998,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7, y: 0.7, z: 0.7}
+  m_Size: {x: 0.7, y: 0.1, z: 0.7}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1189659766
 Rigidbody:
@@ -11737,8 +11762,8 @@ GameObject:
   - component: {fileID: 1307242900}
   - component: {fileID: 1307242902}
   - component: {fileID: 1307242907}
-  - component: {fileID: 1307242909}
   - component: {fileID: 1307242908}
+  - component: {fileID: 1307242909}
   m_Layer: 0
   m_Name: 'E3: Opcion2B_Opcion3B_Contestar el mensaje'
   m_TagString: ImageTarget
@@ -14495,8 +14520,8 @@ GameObject:
   - component: {fileID: 1743287177}
   - component: {fileID: 1743287179}
   - component: {fileID: 1743287183}
-  - component: {fileID: 1743287185}
   - component: {fileID: 1743287184}
+  - component: {fileID: 1743287185}
   m_Layer: 0
   m_Name: 'E4: Final3_El_Sombrero_Gris'
   m_TagString: ImageTarget
@@ -14975,8 +15000,8 @@ GameObject:
   - component: {fileID: 1773860833}
   - component: {fileID: 1773860835}
   - component: {fileID: 1773860839}
-  - component: {fileID: 1773860841}
   - component: {fileID: 1773860840}
+  - component: {fileID: 1773860841}
   m_Layer: 0
   m_Name: 'E3: Opcion2B_Opcion3A_Ignorar_Mensaje'
   m_TagString: ImageTarget
@@ -16443,8 +16468,8 @@ GameObject:
   - component: {fileID: 1885646862}
   - component: {fileID: 1885646864}
   - component: {fileID: 1885646868}
-  - component: {fileID: 1885646870}
   - component: {fileID: 1885646869}
+  - component: {fileID: 1885646870}
   m_Layer: 0
   m_Name: 'E4: Final1_El_Fantasma_Del_Codigo'
   m_TagString: ImageTarget
@@ -16709,8 +16734,8 @@ GameObject:
   - component: {fileID: 1936260480}
   - component: {fileID: 1936260479}
   - component: {fileID: 1936260484}
-  - component: {fileID: 1936260486}
   - component: {fileID: 1936260485}
+  - component: {fileID: 1936260486}
   m_Layer: 0
   m_Name: 'E4: Final2_El_Heroe_Caido'
   m_TagString: ImageTarget
